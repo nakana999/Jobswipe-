@@ -1,5 +1,4 @@
-var React = require(“react”);
 function App() {
-  return React.createElement(“h1”, null, “JobSwipe Live!”);
+  return null
 }
-module.exports = App;
+export default App
