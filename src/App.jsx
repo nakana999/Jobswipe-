@@ -1,4 +1,3 @@
-function App() {
-  return null
+export default function App(){
+  return React.createElement(“h1”,null,”JobSwipe Live!”)
 }
-export default App
