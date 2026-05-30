@@ -1,1 +1,1 @@
-EOF;</div>Swipe />”sans-serif”,
+function App(){return null}export default App
