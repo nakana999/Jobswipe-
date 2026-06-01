@@ -1,21 +1,21 @@
-import { useState } from “react”;
+import { useState } from "react";
 
 export default function App() {
   const jobs = [
     {
-      title: “Software Engineer”,
-      company: “Tech Corp”,
-      location: “New York”,
+      title:"Software Engineer",
+      company: "Tech Corp",
+      location: "New York",
     },
     {
-      title: “Marketing Associate”,
+      title: "Marketing Associate",
       company: “Growth Inc”,
       location: “Miami”,
     },
     {
-      title: “Financial Analyst”,
-      company: “Capital Group”,
-      location: “Chicago”,
+      title: "Financial Analyst",
+      company: "Capital Group",
+      location: "Chicago",
     },
   ];
 
