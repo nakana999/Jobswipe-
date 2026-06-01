@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from 'react'
+import { useState } from "react";
 
 export default function App() {
   const [route, setRoute] = useState('home')
@@ -16,6 +15,7 @@ export default function App() {
       React.createElement('button', {
         onClick: () => setRoute('swipe'),
         style: { padding: '14px 32px', background: '#e8ff47', color: '#070709', border: 'none', borderRadius: '10px', fontSize: '14px', fontWeight: 700, cursor: 'pointer' }
+      }, 'START SWIPING')
     )
   }
 
